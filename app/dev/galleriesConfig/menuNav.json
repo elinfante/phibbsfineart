@@ -1,0 +1,27 @@
+{
+  "nav": {
+
+
+    "menu" : [
+        {
+          "folder_url" : "/dev/",
+          "label" : "home"
+        },
+        {
+          "folder_url" : "horses",
+          "label" : "horses"
+        },
+        {
+          "folder_url" : "form",
+          "label" : "form"
+        },
+        {
+          "folder_url" : "flowers",
+          "label" : "flowers"
+        }
+
+    ]
+
+
+  }
+}

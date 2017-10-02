@@ -1,0 +1,1 @@
+console.error("Error: Cannot find module '/Users/lainfanta/Documents/projects/phibbsfineart/app/src/index.js' from '/Users/lainfanta/Documents/projects/phibbsfineart'");

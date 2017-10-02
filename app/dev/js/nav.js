@@ -14,6 +14,8 @@ var FineArtNav = function(){
 	 */
     var setNav = function(button){
 
+        loadNavOptions();
+
         $('.menu-trigger').click(function() {
 
             if ( $(this).hasClass('opened') ) {
@@ -33,6 +35,56 @@ var FineArtNav = function(){
     };
 
 
+
+
+    /**
+     * load nav options from json file
+     */
+    var loadNavOptions = function(button){
+
+        let navConfig = $('body').data('menu-config');
+
+
+        $.ajax({
+            dataType: "jsonp",
+            jsonp: "callback",
+            url: navConfig,
+            // data: data,
+            success: function(jsonObj) {
+                console.log("JSON SUCCESS -->", jsonObj);
+                loadMenu(jsonObj);
+
+            },
+            error : function(ret) {
+                console.log ("%c -> JSON ERROR => ", "background:#ff0000;", ret);
+                console.log ("%c -> NOTE => ", "background:#ff0000;", "NOTE:Let's check If It is a local navConfig. If so take the String and turn it into a JSON object:");
+
+                if(ret.responseText) {
+                    loadMenu(JSON.parse(ret.responseText));
+                }else{
+                    console.log("FATAL Error! Check the master config from index.html. Should be loaded from http:// not a relative json file.");
+                }
+
+            }
+        });
+
+    };
+
+
+
+
+    var loadMenu = function(menuJSON){
+
+        $('.menu__nav').html('<ul></ul>');
+
+        $.each(menuJSON.nav.menu, function( index, value ) {
+            console.log(value);
+
+            $('.menu__nav').find('ul').append('<li><a href="'+value.folder_url+'">'+value.label+'</li>')
+
+        });
+
+    };
 
 
 
