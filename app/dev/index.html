@@ -24,7 +24,8 @@
   <meta property="og:site_name" content="Site Name, i.e. Moz" />
   <meta property="fb:admins" content="Facebook numeric ID" />
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,800,800i" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
   <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -38,108 +39,7 @@
 
 <body data-master-config="masterConfig/elInfante2017_master.json">
 
-      <div id="grid-container">
-          <div class="cbp-item">
-              <a href="assets/galleries/horses/horse1.png" title="custom title 1" class="cbp-lightbox">
-                  <img src="assets/galleries/horses/horse1.png" alt="custom alt 1" width="100%"/>
-              </a>
-          </div>
-          <div class="cbp-item">
-              <a href="#" title="custom title 2">
-                  <img src="assets/galleries/horses/horse2.png" alt="custom alt 2" width="100%"/>
-              </a>
-          </div>
-          <div class="cbp-item">
-              <a href="#" title="custom title 3">
-                  <img src="assets/galleries/horses/horse3.png" alt="custom alt 3" width="100%"/>
-              </a>
-          </div>
-          <div class="cbp-item">
-              <a href="#" title="custom title 3">
-                  <img src="assets/galleries/horses/horse4.png" alt="custom alt 3" width="100%"/>
-              </a>
-          </div>
-          <div class="cbp-item">
-              <a href="#" title="custom title 3">
-                  <img src="assets/galleries/horses/horse5.png" alt="custom alt 3" width="100%"/>
-              </a>
-          </div>
-          <div class="cbp-item">
-              <a href="#" title="custom title 3">
-                  <img src="assets/galleries/horses/horse6.png" alt="custom alt 3" width="100%"/>
-              </a>
-          </div>
-          <div class="cbp-item">
-              <a href="#" title="custom title 1">
-                  <img src="assets/galleries/horses/horse1.png" alt="custom alt 1" width="100%"/>
-              </a>
-          </div>
-          <div class="cbp-item">
-              <a href="#" title="custom title 2">
-                  <img src="assets/galleries/horses/horse2.png" alt="custom alt 2" width="100%"/>
-              </a>
-          </div>
-          <div class="cbp-item">
-              <a href="#" title="custom title 3">
-                  <img src="assets/galleries/horses/horse3.png" alt="custom alt 3" width="100%"/>
-              </a>
-          </div>
-          <div class="cbp-item">
-              <a href="#" title="custom title 3">
-                  <img src="assets/galleries/horses/horse4.png" alt="custom alt 3" width="100%"/>
-              </a>
-          </div>
-          <div class="cbp-item">
-              <a href="#" title="custom title 3">
-                  <img src="assets/galleries/horses/horse5.png" alt="custom alt 3" width="100%"/>
-              </a>
-          </div>
-          <div class="cbp-item">
-              <a href="#" title="custom title 3">
-                  <img src="assets/galleries/horses/horse6.png" alt="custom alt 3" width="100%"/>
-              </a>
-          </div>
-          <div class="cbp-item">
-              <a href="assets/galleries/horses/horse7.png" title="custom title 1" class="cbp-lightbox">
-                  <img src="assets/galleries/horses/horse7.png" alt="custom alt 1" width="100%"/>
-              </a>
-          </div>
-          <div class="cbp-item">
-              <a href="assets/galleries/horses/horse8.png" title="custom title 1" class="cbp-lightbox">
-                  <img src="assets/galleries/horses/horse8.png" alt="custom alt 1" width="100%"/>
-              </a>
-          </div>
-          <div class="cbp-item">
-              <a href="assets/galleries/horses/horse9.png" title="custom title 1" class="cbp-lightbox">
-                  <img src="assets/galleries/horses/horse9.png" alt="custom alt 1" width="100%"/>
-              </a>
-          </div>
-          <div class="cbp-item">
-              <a href="assets/galleries/horses/horse10.png" title="custom title 1" class="cbp-lightbox">
-                  <img src="assets/galleries/horses/horse10.png" alt="custom alt 1" width="100%"/>
-              </a>
-          </div>
-          <div class="cbp-item">
-              <a href="assets/galleries/horses/horse11.png" title="custom title 1" class="cbp-lightbox">
-                  <img src="assets/galleries/horses/horse11.png" alt="custom alt 1" width="100%"/>
-              </a>
-          </div>
-          <div class="cbp-item">
-              <a href="assets/galleries/horses/horse12.png" title="custom title 1" class="cbp-lightbox">
-                  <img src="assets/galleries/horses/horse12.png" alt="custom alt 1" width="100%"/>
-              </a>
-          </div>
-          <div class="cbp-item">
-              <a href="assets/galleries/horses/horse13.png" title="custom title 1" class="cbp-lightbox">
-                  <img src="assets/galleries/horses/horse13.png" alt="custom alt 1" width="100%"/>
-              </a>
-          </div>
-          <div class="cbp-item">
-              <a href="assets/galleries/horses/horse14.png" title="custom title 1" class="cbp-lightbox">
-                  <img src="assets/galleries/horses/horse14.png" alt="custom alt 1" width="100%"/>
-              </a>
-          </div>
-      </div>
+      <a href="/dev/horses/">Horses</a>
 
 </body>
 
@@ -151,7 +51,8 @@ jQuery(document).ready( function() {
      jQuery('#grid-container').cubeportfolio({
         // options
         lightboxGallery : true,
-        mediaQueries :  [{width: 1440, cols: 5}, {width: 1024, cols: 3}, {width: 768, cols: 3}, {width: 480, cols: 3}, {width: 320, cols: 1}]
+        mediaQueries :  [{width: 1440, cols: 5}, {width: 1024, cols: 3}, {width: 768, cols: 3}, {width: 480, cols: 3}, {width: 320, cols: 1}],
+        caption: 'overlayBottomReveal'
      });
 });
 </script>

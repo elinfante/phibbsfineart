@@ -9,7 +9,7 @@ const DisplayGlobals_SRV = require('./js/services/DisplayGlobals-srv');
 //----------------------------
 
 
-const ElInfanteApp_NODE = require('./js/ElInfanteAppNode-ctrl');
+const ElInfanteApp_NODE = require('./js/PhibbsFineArtAppNode-ctrl');
 
 
 _initApp.call(this);    			
@@ -17,6 +17,6 @@ _initApp.call(this);
 
 function _initApp() {
 
-	DisplayGlobals_SRV.setAppNodeRef(new ElInfanteApp_NODE());
+	DisplayGlobals_SRV.setAppNodeRef(new PhibbsFineArtApp_NODE());
 
 }
