@@ -9,7 +9,7 @@ $secondary_font : 'Open Sans', sans-serif;
 
 $background-color: #000000;
 $link-color: #e7b838;
-$link-color-hover: #e0a913;
+$link-color-hover: #777;
 $link-color-visited: #e0a913;
 $border-color: #e7ebee;
 
@@ -18,7 +18,7 @@ $logo-subtitle-size:1rem;
 $par-size: 1.2rem;
 $small-size: 0.8rem;
 $xsmall-size: 0.7rem;
-$nav-size: 1rem;
+$nav-size: 1.2rem;
 
 
 /* --------------------------------------- */
@@ -31,13 +31,19 @@ html,body {
   margin:0px;
   width:100%;
   height:100%;
-  line-height: 2rem;
   font-weight:300;
+  color:white;
 }
 
 body{
   //background: url("../assets/img/bg/bg_3_1920x1080.jpg") no-repeat center center fixed;
   //@include background-size(cover);
+}
+
+#main-holder {
+  //background:red;
+  width:100%;
+  position:relative;
 }
 
 #grid-container {
@@ -46,8 +52,105 @@ body{
     width:60%;
     margin:0 auto;
     //background:green;
+    padding-top:60px;
+    margin-bottom:50px;
 }
 
+
+footer {
+  background: #222222;
+  text-align:center;
+  padding:20px 0;
+  font-size:14px;
+
+  span {
+    margin-right:10px;
+    cursor:pointer;
+  }
+}
+
+
+
+
+/* --------------------------------------- */
+/* Menu / Nav / Header */
+/* --------------------------------------- */
+
+.menu-trigger {
+  background:#222;
+  color:white;
+  text-align:center;
+  padding:5px 10px;
+  width:50px;
+  font-size:28px;
+  cursor:pointer;
+  position:fixed;
+  z-index:9999;
+}
+
+
+.menu {
+  
+  background-color:#222;
+  position: fixed;
+  top: 0px;
+  left: -300px;
+  height: 100%;
+  width: 300px; 
+  padding-top:50px;
+  z-index:9999;
+  text-align:center;
+
+  .menu__nav {
+
+    font-size: $nav-size;
+
+    ul {
+      margin:10px 0;
+      list-style:none;
+      padding-left:20px;
+
+      li {
+        padding:5px 0;      
+      }
+
+      li:first-child{
+        margin-bottom:30px;
+      }
+
+      a{
+        text-decoration:none;
+        color:#fff;
+
+        &.visited {
+          color: $link-color;
+          font-weight: 800;
+        }
+
+      }
+
+      a:hover {
+        color:$link-color-hover;
+
+        &.visited {
+          color: $link-color-visited;
+        }
+      }
+
+    }
+
+  }
+}
+
+
+
+
+
+
+
+/* --------------------------------------- */
+/* CubePortfolio */
+/* --------------------------------------- */
 
 .cbp-caption-activeWrap {
   
