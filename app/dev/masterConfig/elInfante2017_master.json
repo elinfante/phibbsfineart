@@ -1,0 +1,659 @@
+{
+  "elInfanteApp": {
+
+
+    "projects" : [
+        {
+          "pos" : 0,
+          "id" : 65,
+          "num_thumbs" : 3,
+          "name" : "Buzz Radar Dashboards",
+          "description" : "For the last 3 years I have been working as a Front End Developer for Buzz Radar in a numer of projects. The project I enjoyed the most was creating HTML real-time data visualisations.",
+          "url" : "http://insights.buzzradar.com/preview/IDULXDXU",
+          "tags" : "Html, JavaScript, D3, CSS3, Compass",
+          "client" : "Buzz Radar",
+          "client_url" : "http://www.buzzradar.com",
+          "date" : "01/03/2017"
+        },
+        {
+          "pos" : 0,
+          "id" : 64,
+          "num_thumbs" : 1,
+          "name" : "Buzz Radar Insights Platform",
+          "description" : "For the last 3 years I have been working as a Front End Developer for Buzz Radar in a numer of projects. Updating the insights Platform has been one of the most I am more proud of.",
+          "url" : "http://insights.buzzradar.com/",
+          "tags" : "Html, JavaScript, CSS3, Compass, Bootstrap",
+          "client" : "Buzz Radar",
+          "client_url" : "http://www.buzzradar.com",
+          "date" : "01/03/2017"
+        },
+        {
+          "pos": 0,
+          "id" : 61,
+          "num_thumbs" : 7,
+          "name" : "NHS: Elizabeth Garrett A. Online Course",
+          "description" : "Online campaign for Nokia when I worked in 1000 Heads as a freelance.",
+          "url" : false,
+          "tags" : "Html, JavaScript, CSS3, Bootstrap",
+          "client" : "NHS",
+          "client_url" : false,
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 59,
+          "num_thumbs" : 4,
+          "name" : "Smart Tips Facebook App",
+          "description" : "Online Facebook campaign for Smart Shoppers when I worked in 1000 Heads as a freelance.",
+          "url" : false,
+          "tags" : "Html, JavaScript, CSS3",
+          "client" : "1000 Heads",
+          "client_url" : "https://1000heads.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 58,
+          "num_thumbs" : 8,
+          "name" : "Naked Juice Facebook App",
+          "description" : "Online Facebook application for Naked Juice when I worked in Territory Studios as a freelance.",
+          "url" : false,
+          "tags" : "Html, JavaScript, CSS3",
+          "client" : "1000 Heads",
+          "client_url" : "https://1000heads.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 57,
+          "num_thumbs" : 6,
+          "name" : "Onboarding, BA Intranet",
+          "description" : "Intranet that I build when I use to work in Line Communications as a freelance.",
+          "url" : false,
+          "tags" : "Html, CSS3",
+          "client" : "Line Communications",
+          "client_url" : "https://www.line.co.uk/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 56,
+          "num_thumbs" : 5,
+          "name" : "Cravendale & The Muppets",
+          "description" : "Microsite for Cravendale where you get coupons out of the milk bottles to unlock Muppet characters.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "Glass Eye",
+          "client_url" : "http://www.glasseyeinc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 55,
+          "num_thumbs" : 7,
+          "name" : "Boardwalk Empire: Be a Bootlegger",
+          "description" : "Facebook application for Broadwakr Empire DVD release where you could become a Bootlegger uploading your own profile picture.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "Substance",
+          "client_url" : false,
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 54,
+          "num_thumbs" : 6,
+          "name" : "Mission Impossible Ghost Protocol",
+          "description" : "Flash application to promote Mission Impossible where you get a 3D model of your own face.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "Glass Eye",
+          "client_url" : "http://www.glasseyeinc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 53,
+          "num_thumbs" : 5,
+          "name" : "Tin Tin Live the Adventure",
+          "description" : "Flash application to promote Tin Tin the movie where you can experience the interactive trailer.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 52,
+          "num_thumbs" : 5,
+          "name" : "Johny English Interactive Trailer",
+          "description" : "Flash application to promote Johnny English the movie where you can experience the interactive trailer and unlock secret content.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 51,
+          "num_thumbs" : 3,
+          "name" : "Super 8 Widget",
+          "description" : "Flash application to promote Super 8 the movie where you can experience the Sounds of Lillian, the village where the kids live.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 50,
+          "num_thumbs" : 4,
+          "name" : "Braid Maids The Boutique",
+          "description" : "Facebook application to promote Braid Maids the movie. Do you ever wonder how you would look on a wedding dress?",
+          "url" : false,
+          "tags" : "Flash,Facebook",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 49,
+          "num_thumbs" : 4,
+          "name" : "Duke Nukem Hall of Hotness",
+          "description" : "Browse and rate some of the hottest people around. Submit your picture using Facebook.",
+          "url" : false,
+          "tags" : "Flash,Facebook",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 48,
+          "num_thumbs" : 4,
+          "name" : "The Power of Thor",
+          "description" : "Transform yourself into a Norse God using this Facebook App in your phone",
+          "url" : false,
+          "tags" : "Flash,Facebook",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 47,
+          "num_thumbs" : 5,
+          "name" : "Welcome to Dirt",
+          "description" : "Explore Rango's imagination via this Flash application to promote the movie.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 46,
+          "num_thumbs" : 7,
+          "name" : "Meet the Parents Widget",
+          "description" : "Flash Widget to promote the movie where you find tons of un content including trailer, photos, games and even hidden content to unlock.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 45,
+          "num_thumbs" : 6,
+          "name" : "Megamind Widget",
+          "description" : "Flash Widget to promote the movie where you find tons of un content including trailer, photos, games and even hidden content to unlock.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 44,
+          "num_thumbs" : 7,
+          "name" : "The Last Airbender Widget",
+          "description" : "Flash Widget to promote the movie where you find tons of un content including trailer, photos, games and even hidden content to unlock.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 43,
+          "num_thumbs" : 3,
+          "name" : "Iron Man 2 Microsite",
+          "description" : "Flash Site to promote the movie where you find tons of un content including trailer, photos, games and even hidden content to unlock.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 42,
+          "num_thumbs" : 5,
+          "name" : "Despicable Me Microsite",
+          "description" : "Microsite to promote the movie where you find tons of un content including trailer, photos, games and even hidden content to unlock.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 40,
+          "num_thumbs" : 5,
+          "name" : "Back to the Future Interactive Trailer",
+          "description" : "Microsite to promote the DVD release of the movie where you find tons of un content including trailer, photos, games and even hidden content to unlock.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 38,
+          "num_thumbs" : 5,
+          "name" : "Javier Aramburu Portfolio",
+          "description" : "Portafolio el fotógrafo Javier Aramburu.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "Javier Aramburu",
+          "client_url" : false,
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 37,
+          "num_thumbs" : 5,
+          "name" : "How to train your Dragon Trainig Kit",
+          "description" : "Microsite to promote the DVD release of the movie where you find tons of un content including trailer, photos, games and even hidden content to unlock.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 36,
+          "num_thumbs" : 5,
+          "name" : "Jetpack Attack",
+          "description" : "Microsite to promote the DVD release of the game Darkvoid. You will be able to play a fun game build in Flash.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 35,
+          "num_thumbs" : 6,
+          "name" : "Road to Hogwards Kit",
+          "description" : "Microsite to promote the DVD release of the movie. Users will be able to enjoy a Dashboard of different fun content for fans of the saga.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 33,
+          "num_thumbs" : 5,
+          "name" : "G.I.J.O.E. content Dashboard",
+          "description" : "Microsite to promote the DVD release of the movie where you find tons of un content including trailer, photos, games and even hidden content to unlock.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 31,
+          "num_thumbs" : 4,
+          "name" : "Yes Man Corkboard",
+          "description" : "Microsite to promote the DVD release of the movie where you find tons of un content including trailer, photos, games and even hidden content to unlock.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 30,
+          "num_thumbs" : 2,
+          "name" : "Monsters VS Aliens Widget",
+          "description" : "Widget to promote the DVD release of the movie where you find tons of un content including trailer, photos, games and even hidden content to unlock.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 28,
+          "num_thumbs" : 4,
+          "name" : "Become Street Fighter",
+          "description" : "Microsite that I built to create your own Street Fighet avatar, making a 3D model of your picture. It got nominated for BIMAS.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 27,
+          "num_thumbs" : 6,
+          "name" : "Infante Portfolio",
+          "description" : "Portfolio that I created for myself to show my work and hobbies.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "Juan Infante",
+          "client_url" : false,
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 24,
+          "num_thumbs" : 2,
+          "name" : "Madagascar Widget",
+          "description" : "Widget to promote the movie where you find tons of un content including trailer, photos, games and even hidden content to unlock.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "Juan Infante",
+          "client_url" : false,
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 23,
+          "num_thumbs" : 4,
+          "name" : "How to Loose friends and alienate people Widget",
+          "description" : "Widget to promote the movie where you find tons of un content including trailer, photos, games and even hidden content to unlock.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "Juan Infante",
+          "client_url" : false,
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 22,
+          "num_thumbs" : 4,
+          "name" : "Watchmen Widget",
+          "description" : "Widget to promote the movie where you find tons of un content including trailer, photos, games and even hidden content to unlock.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "Juan Infante",
+          "client_url" : false,
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 21,
+          "num_thumbs" : 5,
+          "name" : "Angus,thong and the perfect snogging Microsite",
+          "description" : "Microsite to promote the movie where you find tons of un content including trailer, photos, games and even hidden content to unlock.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "Juan Infante",
+          "client_url" : false,
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 19,
+          "num_thumbs" : 4,
+          "name" : "Get Smart Microsite",
+          "description" : "Microsite to promote the movie where you find tons of un content including trailer, photos, games and even hidden content to unlock.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "Juan Infante",
+          "client_url" : false,
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 18,
+          "num_thumbs" : 3,
+          "name" : "Kung Fu Panda Widget",
+          "description" : "Widget to promote the movie release where you find tons of un content including trailer, photos, games and even hidden content to unlock.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 16,
+          "num_thumbs" : 3,
+          "name" : "Indiana Jones and the Kingdom of the Crystal Skull Widget",
+          "description" : "Widget to promote the movie release where you find tons of un content including trailer, photos, games and even hidden content to unlock.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 15,
+          "num_thumbs" : 3,
+          "name" : "Sweeney Todd Widget",
+          "description" : "Widget to promote the movie release where you find tons of un content including trailer, photos, games and even hidden content to unlock.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 14,
+          "num_thumbs" : 5,
+          "name" : "I am Legend Widget",
+          "description" : "Widget to promote the movie release where you find tons of un content including trailer, photos, games and even hidden content to unlock.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 13,
+          "num_thumbs" : 4,
+          "name" : "Beowulf Widget",
+          "description" : "Widget to promote the movie release where you find tons of un content including trailer, photos, games and even hidden content to unlock.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 12,
+          "num_thumbs" : 5,
+          "name" : "Knocked Up Baby Creator",
+          "description" : "Microsite to advertise the movie Knocked Up where you could create a baby mixing two different photographs.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 10,
+          "num_thumbs" : 4,
+          "name" : "Pony Friends",
+          "description" : "Microsite to advertise the Nintento DS game Pony.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 8,
+          "num_thumbs" : 5,
+          "name" : "Venus Official Site",
+          "description" : "Official Site for the movie Venus.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        },
+        {
+          "pos": 0,
+          "id" : 6,
+          "num_thumbs" : 4,
+          "name" : "Breaking and Entering Official Site",
+          "description" : "Official Site for the movie Breaking and Entering.",
+          "url" : false,
+          "tags" : "Flash",
+          "client" : "The PPC (Picture Production Company)",
+          "client_url" : "http://www.theppc.com/",
+          "date" : "01/06/2014"
+        }
+    ],
+
+
+
+
+
+    "designs_videos" : [
+        {
+          "pos" : 0,
+          "type" : "img",
+          "url" : false,
+          "id" : 1,
+          "num_thumbs" : 2,
+          "name" : "Laura & John wedding invitation",
+          "description" : "Wedding invitation for some clients."
+        },
+        {
+          "pos" : 0,
+          "type" : "img",
+          "url" : false,
+          "id" : 2,
+          "num_thumbs" : 2,
+          "name" : "Jesus & Pedro wedding invitation",
+          "description" : "Wedding invitation for some clients."
+        },
+        {
+          "pos": 0,
+          "type" : "video",
+          "url" : "https://www.youtube.com/embed/jOO4uNzGFzk",
+          "id" : 0,
+          "num_thumbs" : 0,
+          "name" : "Josu's Birthday",
+          "description" : "Video I made for a friend's birthday."
+        },
+        {
+          "pos": 0,
+          "type" : "video",
+          "url" : "https://www.youtube.com/embed/M2tqv8THuOM",
+          "id" : 0,
+          "num_thumbs" : 0,
+          "name" : "Rafa's Birthday",
+          "description" : "Video I made for a friend's birthday."
+        },
+        {
+          "pos" : 0,
+          "type" : "img",
+          "url" : false,
+          "id" : 3,
+          "num_thumbs" : 2,
+          "name" : "Carlos & Vero wedding invitation",
+          "description" : "Wedding invitation for some clients."
+        },
+        {
+          "pos" : 0,
+          "type" : "img",
+          "url" : false,
+          "id" : 4,
+          "num_thumbs" : 2,
+          "name" : "The good old days",
+          "description" : "Photo shoot I made with some friends imitating old school college shots. After that I comisioned an artist to draw a Simpson versio. Thought It worked really well!"
+        },
+        {
+          "pos" : 0,
+          "type" : "img",
+          "url" : false,
+          "id" : 5,
+          "num_thumbs" : 2,
+          "name" : "The Ambassadors version",
+          "description" : "Photo shoot with the photographer <a href='http://jimenezjuan.com/' target='_blank'>Juan Jimenez</a> to recreate the classic painting The Ambassadors that is shown in the National Gallery."
+        },
+        {
+          "pos" : 0,
+          "type" : "img",
+          "url" : false,
+          "id" : 6,
+          "num_thumbs" : 1,
+          "name" : "Police Line Up",
+          "description" : "Photo shoot <a href='http://jimenezjuan.com/' target='_blank'>Juan Jimenez</a> and I did with some friends as If we were all in a police lineup like in The Usual Suspects movie."
+        },
+        {
+          "pos" : 0,
+          "type" : "img",
+          "url" : false,
+          "id" : 8,
+          "num_thumbs" : 2,
+          "name" : "Mad Men tribute",
+          "description" : "Tribute to one of the best series ever made on TV. Photograph by <a href='http://jimenezjuan.com/' target='_blank'>Juan Jimenez</a>."
+        },
+        {
+          "pos" : 0,
+          "type" : "img",
+          "url" : false,
+          "id" : 7,
+          "num_thumbs" : 2,
+          "name" : "The Execution of Lady Jean Grey",
+          "description" : "Photo shoot with the photographer <a href='http://jimenezjuan.com/' target='_blank'>Juan Jimenez</a> to recreate the classic painting The Ambassadors that is shown in the National Gallery."
+        },
+        {
+          "pos" : 0,
+          "type" : "img",
+          "url" : false,
+          "id" : 9,
+          "num_thumbs" : 1,
+          "name" : "The War",
+          "description" : "Photo shoot with the photographer <a href='http://jimenezjuan.com/' target='_blank'>Juan Jimenez</a> where we fight against each other in an epic battle in the heart of The Netherlands."
+        }
+        
+    ]
+
+
+
+
+  }
+}
