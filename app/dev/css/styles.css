@@ -240,6 +240,10 @@ a.book:hover {
   line-height: 100%;
 }
 
+.cbp-popup-lightbox-counter {
+  display: none;
+}
+
 /* --------------------------------------- */
 /* MEDIA QUERIES                           */
 /* --------------------------------------- */
