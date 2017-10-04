@@ -4,113 +4,98 @@
 
     "photos" : [
         {
-          "file_name" : "../assets/galleries/landscape/landscape_001.jpg",
+          "file_name" : "../assets/galleries/architecture/architecture_001.jpg",
           "title" : "Polo Horse Tail",
           "location" : "Buenos Aires, Argentina 2006"
         },
         {
-          "file_name" : "../assets/galleries/landscape/landscape_002.jpg",
+          "file_name" : "../assets/galleries/architecture/architecture_002.jpg",
           "title" : "Polo Horse Feet",
           "location" : "Buenos Aires, Argentina 2006"
         },
         {
-          "file_name" : "../assets/galleries/landscape/landscape_003.jpg",
+          "file_name" : "../assets/galleries/architecture/architecture_003.jpg",
           "title" : "Adolfo's Two Horses",
           "location" : "Buenos Aires, Argentina 2006"
         },
         {
-          "file_name" : "../assets/galleries/landscape/landscape_004.jpg",
+          "file_name" : "../assets/galleries/architecture/architecture_004.jpg",
           "title" : "Polo Horse Tail",
           "location" : "Buenos Aires, Argentina 2006"
         },
         {
-          "file_name" : "../assets/galleries/landscape/landscape_005.jpg",
+          "file_name" : "../assets/galleries/architecture/architecture_005.jpg",
           "title" : "Polo Horse Feet",
           "location" : "Buenos Aires, Argentina 2006"
         },
         {
-          "file_name" : "../assets/galleries/landscape/landscape_006.jpg",
+          "file_name" : "../assets/galleries/architecture/architecture_006.jpg",
           "title" : "Adolfo's Two Horses",
           "location" : "Buenos Aires, Argentina 2006"
         },
         {
-          "file_name" : "../assets/galleries/landscape/landscape_007.jpg",
+          "file_name" : "../assets/galleries/architecture/architecture_007.jpg",
           "title" : "Adolfo's Two Horses",
           "location" : "Buenos Aires, Argentina 2006"
         },
         {
-          "file_name" : "../assets/galleries/landscape/landscape_008.jpg",
+          "file_name" : "../assets/galleries/architecture/architecture_008.jpg",
           "title" : "Polo Horse Tail",
           "location" : "Buenos Aires, Argentina 2006"
         },
         {
-          "file_name" : "../assets/galleries/landscape/landscape_009.jpg",
+          "file_name" : "../assets/galleries/architecture/architecture_009.jpg",
           "title" : "Polo Horse Feet",
           "location" : "Buenos Aires, Argentina 2006"
         },
         {
-          "file_name" : "../assets/galleries/landscape/landscape_010.jpg",
+          "file_name" : "../assets/galleries/architecture/architecture_010.jpg",
           "title" : "Adolfo's Two Horses",
           "location" : "Buenos Aires, Argentina 2006"
         },
         {
-          "file_name" : "../assets/galleries/landscape/landscape_011.jpg",
+          "file_name" : "../assets/galleries/architecture/architecture_011.jpg",
           "title" : "Polo Horse Tail",
           "location" : "Buenos Aires, Argentina 2006"
         },
         {
-          "file_name" : "../assets/galleries/landscape/landscape_012.jpg",
+          "file_name" : "../assets/galleries/architecture/architecture_012.jpg",
           "title" : "Polo Horse Feet",
           "location" : "Buenos Aires, Argentina 2006"
         },
         {
-          "file_name" : "../assets/galleries/landscape/landscape_013.jpg",
+          "file_name" : "../assets/galleries/architecture/architecture_013.jpg",
           "title" : "Adolfo's Two Horses",
           "location" : "Buenos Aires, Argentina 2006"
         },
         {
-          "file_name" : "../assets/galleries/landscape/landscape_014.jpg",
+          "file_name" : "../assets/galleries/architecture/architecture_014.jpg",
           "title" : "Polo Horse Tail",
           "location" : "Buenos Aires, Argentina 2006"
         },
         {
-          "file_name" : "../assets/galleries/landscape/landscape_015.jpg",
+          "file_name" : "../assets/galleries/architecture/architecture_015.jpg",
           "title" : "Polo Horse Feet",
           "location" : "Buenos Aires, Argentina 2006"
         },
         {
-          "file_name" : "../assets/galleries/landscape/landscape_016.jpg",
+          "file_name" : "../assets/galleries/architecture/architecture_016.jpg",
           "title" : "Adolfo's Two Horses",
           "location" : "Buenos Aires, Argentina 2006"
         },
         {
-          "file_name" : "../assets/galleries/landscape/landscape_017.jpg",
+          "file_name" : "../assets/galleries/architecture/architecture_017.jpg",
           "title" : "Adolfo's Two Horses",
           "location" : "Buenos Aires, Argentina 2006"
         },
         {
-          "file_name" : "../assets/galleries/landscape/landscape_018.jpg",
+          "file_name" : "../assets/galleries/architecture/architecture_018.jpg",
           "title" : "Polo Horse Tail",
           "location" : "Buenos Aires, Argentina 2006"
         },
         {
-          "file_name" : "../assets/galleries/landscape/landscape_019.jpg",
-          "title" : "Polo Horse Tail",
-          "location" : "Buenos Aires, Argentina 2006"
-        },
-        {
-          "file_name" : "../assets/galleries/landscape/landscape_020.jpg",
+          "file_name" : "../assets/galleries/architecture/architecture_019.jpg",
           "title" : "Polo Horse Feet",
-          "location" : "Buenos Aires, Argentina 2006"
-        },
-        {
-          "file_name" : "../assets/galleries/landscape/landscape_021.jpg",
-          "title" : "Adolfo's Two Horses",
-          "location" : "Buenos Aires, Argentina 2006"
-        },
-        {
-          "file_name" : "../assets/galleries/landscape/landscape_022.jpg",
-          "title" : "Polo Horse Tail",
           "location" : "Buenos Aires, Argentina 2006"
         }
 
