@@ -33,6 +33,7 @@ html,body {
   height:100%;
   font-weight:300;
   color:white;
+  overflow-x: hidden;
 }
 
 body{
@@ -41,7 +42,7 @@ body{
 }
 
 #main-holder {
-  background:red;
+  //background:red;
   width:100%;
   position:relative;
 }
@@ -51,7 +52,7 @@ body{
     height:100%;
     width:60%;
     margin:0 auto;
-    background:green;
+    //background:green;
     padding-top:60px;
     margin-bottom:50px;
 }
@@ -70,6 +71,20 @@ footer {
 }
 
 
+
+#home-layout {
+    position:relative;
+    height:100%;
+    width:992px;
+    margin:0 auto;
+    //background:green;
+    padding-top:60px;
+    margin-bottom:50px;
+}
+
+.home-thumb {
+  margin-top:1.5rem;
+}
 
 
 /* --------------------------------------- */
@@ -143,7 +158,23 @@ footer {
 }
 
 
+.header-container {
 
+    position:absolute;
+    color:white;
+    z-index:60;
+    width:100%;
+    top:10%;
+
+    h1{
+      text-align:center;      
+      font-size: 4vw;
+      letter-spacing: 20px;
+      letter-spacing: 1.5vw;
+      @include text-shadow(rgba(86,86,86,0.5) 0px 0px 5px);
+    }
+
+}
 
 
 
@@ -155,17 +186,17 @@ footer {
 
   width:100%;
   overflow:hidden;
-  background-color:yellow;
+  //background-color:yellow;
 
   .slide {
 
       height:100%;
       position:relative;
+      background:black;
 
       .bg-img {
         width:100%;
         height:100%;
-        background:blue;
         background-repeat: no-repeat;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -175,9 +206,6 @@ footer {
       }
 
   }
-
-
-
 
 }
 
@@ -216,6 +244,7 @@ footer {
 
 
 
+
 /* --------------------------------------- */
 /* MEDIA QUERIES                           */
 /* --------------------------------------- */
@@ -227,6 +256,44 @@ footer {
   #grid-container {
       width:95%;
   }
+
+  #home-layout {
+
+      width:95%;
+
+  }
+
+
+  .header-container {
+      
+      top:10%;
+
+      h1{
+        font-size: 10vw;
+        line-height:150%;
+      }
+
+  }
+
+
+  .bg-slider,.header-container{
+    display:none;
+  }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 1024px)  {
+
+  #home-layout {
+
+      width:95%;
+
+  }
+
 
 }
 

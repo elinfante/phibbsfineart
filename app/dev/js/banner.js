@@ -6,8 +6,11 @@ var Banner = function(){
 
 
 
-
-
+    var current_slide = 1;
+    var num_slides = 3;
+    var bannerInterval;
+    var intervalTime = 5000;
+    var animTime = 1000;
 
 	/**
 	 * Set height of the banner
@@ -16,22 +19,44 @@ var Banner = function(){
 
         $('.bg-slider').css('height',$(window).height());
 
+        bannerInterval = setInterval(function() {
+            showNextSlide();
+        },intervalTime);
 
-        setTimeout(function() {
-            $('.bg-slider').find('.slide:nth-child(1)').fadeOut(500);
-            $('.bg-slider').find('.slide:nth-child(2)').fadeIn(500);
-        },2000);
+    };
+
+
+    var showNextSlide = function() {
+
+        $('.bg-slider').find('.bg-img').fadeOut(function() { 
+    
+            current_slide ++;
+            if (current_slide > num_slides) current_slide = 1;
+
+            $(this).css('background-image','url(assets/banner/banner'+current_slide+'.png)');
+            $(this).fadeIn(animTime);
+
+        }); 
 
     };
 
 
 
+    var resizeBanner = function() {
 
+        
+        
+    };
 
 
     return {
         init: function(){
             setSizeWindow();
+
+            $( window ).resize(function() {
+              resizeBanner();
+            });
+
         },
     };
 
