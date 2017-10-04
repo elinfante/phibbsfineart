@@ -91,7 +91,13 @@ var FineArtNav = function(){
                 if (value.label === "home") {
                     $('.menu__nav').find('ul').append('<li '+liClass+'><a href="'+value.folder_url+'">'+value.label.toUpperCase()+'</li>')
                 }else{
-                    $('.menu__nav').find('ul').append('<li '+liClass+'><a href="../'+value.folder_url+'">'+value.label.toUpperCase()+'</li>')
+
+                    if (value.label === "additional work") {
+                        $('.menu__nav').find('ul').append('<li '+liClass+'><a href="'+value.folder_url+'">'+value.label.toUpperCase()+'</li>')
+                    }else{
+                        $('.menu__nav').find('ul').append('<li '+liClass+'><a href="../'+value.folder_url+'">'+value.label.toUpperCase()+'</li>')
+                    }
+
                 }
                 
             }

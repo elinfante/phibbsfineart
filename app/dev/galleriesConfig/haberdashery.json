@@ -1,0 +1,61 @@
+{
+  "gallery": {
+
+
+    "photos" : [
+        {
+          "file_name" : "../assets/galleries/haberdashery/haberdashery_001.jpg",
+          "title" : "Polo Horse Tail",
+          "location" : "Buenos Aires, Argentina 2006"
+        },
+        {
+          "file_name" : "../assets/galleries/haberdashery/haberdashery_002.jpg",
+          "title" : "Polo Horse Feet",
+          "location" : "Buenos Aires, Argentina 2006"
+        },
+        {
+          "file_name" : "../assets/galleries/haberdashery/haberdashery_003.jpg",
+          "title" : "Adolfo's Two Horses",
+          "location" : "Buenos Aires, Argentina 2006"
+        },
+        {
+          "file_name" : "../assets/galleries/haberdashery/haberdashery_004.jpg",
+          "title" : "Polo Horse Tail",
+          "location" : "Buenos Aires, Argentina 2006"
+        },
+        {
+          "file_name" : "../assets/galleries/haberdashery/haberdashery_005.jpg",
+          "title" : "Polo Horse Feet",
+          "location" : "Buenos Aires, Argentina 2006"
+        },
+        {
+          "file_name" : "../assets/galleries/haberdashery/haberdashery_006.jpg",
+          "title" : "Adolfo's Two Horses",
+          "location" : "Buenos Aires, Argentina 2006"
+        },
+        {
+          "file_name" : "../assets/galleries/haberdashery/haberdashery_007.jpg",
+          "title" : "Adolfo's Two Horses",
+          "location" : "Buenos Aires, Argentina 2006"
+        },
+        {
+          "file_name" : "../assets/galleries/haberdashery/haberdashery_008.jpg",
+          "title" : "Polo Horse Tail",
+          "location" : "Buenos Aires, Argentina 2006"
+        },
+        {
+          "file_name" : "../assets/galleries/haberdashery/haberdashery_009.jpg",
+          "title" : "Polo Horse Feet",
+          "location" : "Buenos Aires, Argentina 2006"
+        }
+
+
+    ]
+
+
+
+
+
+
+  }
+}

@@ -60,11 +60,11 @@
         },
         {
           "folder_url" : "haberdashery",
-          "label" : "haberdasherg",
+          "label" : "haberdashery",
           "margin_bottom" : true
         },
         {
-          "folder_url" : "portrait_sitting",
+          "folder_url" : "portraits",
           "label" : "portrait sitting",
           "margin_bottom" : true
         },
@@ -74,12 +74,12 @@
           "margin_bottom" : false
         },
         {
-          "folder_url" : "info_prints",
+          "folder_url" : "contact",
           "label" : "info/prints",
           "margin_bottom" : false
         },
         {
-          "folder_url" : "additional_work",
+          "folder_url" : "http://www.richardphibbs.com/",
           "label" : "additional work",
           "margin_bottom" : false
         },

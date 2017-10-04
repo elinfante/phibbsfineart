@@ -9,7 +9,7 @@ html, body {
   width: 100%;
   height: 100%;
   font-weight: 300;
-  color: white;
+  color: #222;
   overflow-x: hidden;
 }
 
@@ -18,13 +18,16 @@ html, body {
   position: relative;
 }
 
-#grid-container {
+#grid-container, #grid-container-extra {
   position: relative;
   height: 100%;
   width: 60%;
   margin: 0 auto;
-  padding-top: 60px;
+  margin-top: 60px;
   margin-bottom: 50px;
+}
+#grid-container.contact, #grid-container-extra.contact {
+  width: 40%;
 }
 
 footer {
@@ -32,6 +35,7 @@ footer {
   text-align: center;
   padding: 20px 0;
   font-size: 14px;
+  color: white;
 }
 footer span {
   margin-right: 10px;
@@ -51,6 +55,23 @@ footer span {
   margin-top: 1.5rem;
 }
 
+a {
+  text-decoration: underline;
+  color: #222;
+}
+
+a:hover {
+  color: #999;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
 /* --------------------------------------- */
 /* Menu / Nav / Header */
 /* --------------------------------------- */
@@ -64,7 +85,8 @@ footer span {
   font-size: 28px;
   cursor: pointer;
   position: fixed;
-  z-index: 9999;
+  z-index: 999999;
+  top: 0px;
 }
 
 .menu {
@@ -121,6 +143,37 @@ footer span {
   letter-spacing: 1.5vw;
   text-shadow: rgba(86, 86, 86, 0.5) 0px 0px 5px;
 }
+.header-container.gallery {
+  display: none;
+}
+
+.home-thumb {
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.home-thumb .title {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 100%;
+}
+.home-thumb .title.white {
+  color: white;
+}
+.home-thumb .title.black {
+  color: #222;
+}
+.home-thumb .title h3 {
+  font-size: 2vw;
+}
+.home-thumb:hover {
+  opacity: 0.7;
+}
+
+a.book:hover {
+  opacity: 0.7;
+}
 
 /* --------------------------------------- */
 /* Slider */
@@ -143,6 +196,26 @@ footer span {
   -o-background-size: cover;
   background-size: cover;
   background-position: center center;
+}
+.bg-slider .vision {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  padding: 7% 10%;
+  margin: 0 auto;
+  top: 0px;
+  z-index: 9999;
+  color: white;
+  text-shadow: rgba(86, 86, 86, 0.7) 0px 0px 5px;
+}
+.bg-slider .vision h1 {
+  letter-spacing: .5vw;
+  font-size: 5rem;
+}
+.bg-slider .vision p {
+  letter-spacing: .5vw;
+  line-height: 4.5vh;
+  font-size: 1.5rem;
 }
 
 /* --------------------------------------- */
@@ -169,7 +242,10 @@ footer span {
 /* --------------------------------------- */
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-width: 480px) {
-  #grid-container {
+  #grid-container, #grid-container-extra {
+    width: 95%;
+  }
+  #grid-container.contact, #grid-container-extra.contact {
     width: 95%;
   }
 
@@ -179,6 +255,20 @@ footer span {
 
   .bg-slider {
     display: none;
+  }
+
+  .bg-slider.vision {
+    display: block;
+  }
+  .bg-slider.vision h1 {
+    letter-spacing: .5vw;
+    font-size: 4rem;
+    padding-top: 50px;
+  }
+  .bg-slider.vision p {
+    letter-spacing: 0vw;
+    line-height: 3vh;
+    font-size: 1.2rem;
   }
 
   .header-container {
@@ -195,9 +285,12 @@ footer span {
   .header-container h1 {
     text-align: left;
     padding-left: 60px;
-    margin-top: 12px;
+    margin-top: 15px;
     font-size: 1.2rem;
     text-shadow: rgba(86, 86, 86, 0.5) 0px 0px 0px;
+  }
+  .header-container.gallery {
+    display: block;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
