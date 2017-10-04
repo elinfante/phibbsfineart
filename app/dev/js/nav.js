@@ -6,7 +6,7 @@ var FineArtNav = function(){
 
 
 
-
+    var dataHome = false;
 
 
 	/**
@@ -78,9 +78,21 @@ var FineArtNav = function(){
         $('.menu__nav').html('<ul></ul>');
 
         $.each(menuJSON.nav.menu, function( index, value ) {
-            console.log(value);
+            console.log(value, dataHome);
 
-            $('.menu__nav').find('ul').append('<li><a href="'+value.folder_url+'">'+value.label+'</li>')
+            if (dataHome) {
+                
+                $('.menu__nav').find('ul').append('<li><a href="'+value.folder_url+'">'+value.label+'</li>')
+
+            }else{
+
+                if (value.label === "home") {
+                    $('.menu__nav').find('ul').append('<li><a href="'+value.folder_url+'">'+value.label+'</li>')
+                }else{
+                    $('.menu__nav').find('ul').append('<li><a href="../'+value.folder_url+'">'+value.label+'</li>')
+                }
+                
+            }
 
         });
 
@@ -104,12 +116,32 @@ var FineArtNav = function(){
 
 
 
+    var getScriptParameters = function() {
+
+      var scripts = document.getElementsByTagName('script');
+      for(var i = 0, l = scripts.length; i < l; i++){
+        console.log(scripts[i].src);
+        if( scripts[i].src.includes('js/nav.js') ){
+            console.log("what I get from script....", scripts[i].getAttribute('data-home'))
+          dataHome = Number(scripts[i].getAttribute('data-home'));
+          console.log(dataHome)
+          break;
+        }
+      }
+
+    };
+
+
 
 
     return {
         init: function(){
+
+            getScriptParameters();
+
             setNav();
             setFooterArrowUP();
+
         },
     };
 
