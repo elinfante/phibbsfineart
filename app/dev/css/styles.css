@@ -230,12 +230,12 @@ a.book:hover {
   color: white;
 }
 .cbp-caption-activeWrap p:nth-child(1) {
-  font-size: 20px;
+  font-size: 18px;
   margin: 0;
   line-height: 130%;
 }
 .cbp-caption-activeWrap p:nth-child(2) {
-  font-size: 16px;
+  font-size: 12px;
   margin: 0;
   line-height: 100%;
 }
