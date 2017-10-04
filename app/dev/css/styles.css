@@ -89,7 +89,7 @@ footer span {
 .menu .menu__nav ul li {
   padding: 5px 0;
 }
-.menu .menu__nav ul li:first-child {
+.menu .menu__nav ul li.bttm-margin {
   margin-bottom: 30px;
 }
 .menu .menu__nav ul a {

@@ -78,18 +78,20 @@ var FineArtNav = function(){
         $('.menu__nav').html('<ul></ul>');
 
         $.each(menuJSON.nav.menu, function( index, value ) {
-            console.log(value, dataHome);
+            // console.log(value, dataHome);
+
+            var liClass = (value.margin_bottom) ? 'class="bttm-margin"' : '';
 
             if (dataHome) {
-                
-                $('.menu__nav').find('ul').append('<li><a href="'+value.folder_url+'">'+value.label+'</li>')
+
+                $('.menu__nav').find('ul').append('<li '+liClass+'><a href="'+value.folder_url+'">'+value.label.toUpperCase()+'</li>')
 
             }else{
 
                 if (value.label === "home") {
-                    $('.menu__nav').find('ul').append('<li><a href="'+value.folder_url+'">'+value.label+'</li>')
+                    $('.menu__nav').find('ul').append('<li '+liClass+'><a href="'+value.folder_url+'">'+value.label.toUpperCase()+'</li>')
                 }else{
-                    $('.menu__nav').find('ul').append('<li><a href="../'+value.folder_url+'">'+value.label+'</li>')
+                    $('.menu__nav').find('ul').append('<li '+liClass+'><a href="../'+value.folder_url+'">'+value.label.toUpperCase()+'</li>')
                 }
                 
             }

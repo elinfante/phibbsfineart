@@ -5,19 +5,88 @@
     "menu" : [
         {
           "folder_url" : "/dev/",
-          "label" : "home"
+          "label" : "home",
+          "margin_bottom" : true
         },
         {
           "folder_url" : "horses",
-          "label" : "horses"
+          "label" : "horses",
+          "margin_bottom" : false
         },
         {
           "folder_url" : "form",
-          "label" : "form"
+          "label" : "form",
+          "margin_bottom" : false
         },
         {
           "folder_url" : "flowers",
-          "label" : "flowers"
+          "label" : "flowers",
+          "margin_bottom" : false
+        },
+        {
+          "folder_url" : "ballet",
+          "label" : "ballet",
+          "margin_bottom" : false
+        },
+        {
+          "folder_url" : "nautical",
+          "label" : "nautical",
+          "margin_bottom" : false
+        },
+        {
+          "folder_url" : "landscapes",
+          "label" : "landscapes",
+          "margin_bottom" : false
+        },
+        {
+          "folder_url" : "architecture",
+          "label" : "architecture",
+          "margin_bottom" : false
+        },
+        {
+          "folder_url" : "sport",
+          "label" : "sport",
+          "margin_bottom" : false
+        },
+        {
+          "folder_url" : "western",
+          "label" : "western",
+          "margin_bottom" : false
+        },
+        {
+          "folder_url" : "travel",
+          "label" : "travel",
+          "margin_bottom" : false
+        },
+        {
+          "folder_url" : "haberdashery",
+          "label" : "haberdasherg",
+          "margin_bottom" : true
+        },
+        {
+          "folder_url" : "portrait_sitting",
+          "label" : "portrait sitting",
+          "margin_bottom" : true
+        },
+        {
+          "folder_url" : "vision",
+          "label" : "vision",
+          "margin_bottom" : false
+        },
+        {
+          "folder_url" : "info_prints",
+          "label" : "info/prints",
+          "margin_bottom" : false
+        },
+        {
+          "folder_url" : "additional_work",
+          "label" : "additional work",
+          "margin_bottom" : false
+        },
+        {
+          "folder_url" : "books",
+          "label" : "books",
+          "margin_bottom" : false
         }
 
     ]
