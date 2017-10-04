@@ -4,7 +4,7 @@
 @import "compass/css3";
 @import "compass/utilities";
 
-$primary_font: 'Open Sans Condensed', sans-serif;
+$primary_font: 'Futura', sans-serif;
 $secondary_font : 'Open Sans', sans-serif;
 
 $background-color: #000000;
@@ -15,10 +15,19 @@ $border-color: #e7ebee;
 
 $logo-title-size:1.8rem;
 $logo-subtitle-size:1rem;
-$par-size: 1.2rem;
+$par-size: 0.7rem;
 $small-size: 0.8rem;
 $xsmall-size: 0.7rem;
-$nav-size: 1.2rem;
+$nav-size: 1rem;
+
+
+
+
+@font-face {
+  font-family: "Futura";
+  src: url(../assets/font/futura.ttc) format("truetype");
+}
+
 
 
 /* --------------------------------------- */
@@ -31,7 +40,6 @@ html,body {
   margin:0px;
   width:100%;
   height:100%;
-  font-weight:300;
   color:#222;
   overflow-x: hidden;
 }
@@ -192,7 +200,7 @@ h1{
     
     h1{
       text-align:center;      
-      font-size: 4vw;
+      font-size: 3vw;
       letter-spacing: 20px;
       letter-spacing: 1.5vw;
       @include text-shadow(rgba(86,86,86,0.5) 0px 0px 5px);
@@ -400,8 +408,8 @@ a.book:hover{
       h1{
         text-align:left;
         padding-left:60px;      
-        margin-top:15px;
-        font-size: 1.2rem;
+        margin-top:19px;
+        font-size: 0.9rem;
         @include text-shadow(rgba(86,86,86,0.5) 0px 0px 0px);
       }
 
