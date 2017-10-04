@@ -44,7 +44,17 @@ var Banner = function(){
 
     var resizeBanner = function() {
 
-        
+        var windowHeight = $(window).height();
+        var windowWidth = $(window).width();
+
+        $('.bg-slider').css('height',windowHeight);
+        $('.header-container').show();
+
+        if (windowWidth < 490) {
+            $('.header-container').css('top',0);
+        }else{
+            $('.header-container').css('top',windowHeight/2 - 53);
+        }
         
     };
 
@@ -56,6 +66,8 @@ var Banner = function(){
             $( window ).resize(function() {
               resizeBanner();
             });
+            resizeBanner();
+
 
         },
     };
